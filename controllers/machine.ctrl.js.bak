@@ -1,0 +1,87 @@
+const { db } = require('./dbclient');
+const { ObjectId } = require('mongodb');
+
+class Machine {
+	
+	static async getCredit(machineId) {
+		const machine = await db.collection('machine').findOne({_id: new ObjectId(machineId)});
+		if(!machine) {
+		  throw new Error('machine not found: ' + machineId);
+    }
+		if(!machine.bankAccounts) {
+		  return 0;
+    }
+    if(!machine.credit) {
+      this.calculateCredit(machineId, machine.bankAccounts);
+    }
+		
+		const match = await this.compareCreditSource(machineId, machine.bankAccounts, machine.credit.src);
+		if(match) {
+		  return machine.credit.value;
+    } else {
+      return await this.calculateCredit(machineId, machine.bankAccounts);
+    }
+	}
+	
+	async compareCreditSource(machineId, machineBankAccounts, src) {
+		const bankBalances = await this.getBalancesByBankAccount(machineBankAccounts);
+		if(JSON.stringify(src.bankBalances) != JSON.stringify(bankBalances)) return false;
+
+		const lastTransaction = await this.getLastTransaction(machineId);
+		if(src.lastTransaction._id != lastTransaction._id) return false;
+		return true;
+	}
+
+	async getLastTransaction(machineId) {
+		return db.collection('transaction').find({'actor': machineId})
+			.sort({_id: -1}).limit(1).toArray();
+	}
+
+	async getBalancesByBankAccount(bankAccounts) {
+		return db.collection('bankbalance').find({
+			$or: [ bankAccounts ]
+		}).toArray();
+	}
+
+	async getTransactionTotal(machineId) {
+		return db.transaction.aggregate([
+			{ $match: { 'actor': machineId} },
+			{ $group: {
+				'_id': '$item',
+				'total': { $sum: "$amount" },
+				'lastId': { $max: "$_id" }
+			}}
+		]);
+	}
+
+	async calculateCredit(machineId, machineBankAccounts) {
+		const transaction = await this.getTransactionTotal(machineId);
+		const bankBalances = await this.getBalancesByBankAccount(machineBankAccounts);
+		const balanceTotal = bankBalances.reduce((sum, obj) => sum + obj.balance, 0);
+
+		const credit = balanceTotal - transaction.total;
+		// if(credit < 0) // alarm
+		await db.machine.update({_id: machineId}, {
+			credit: {
+				value: credit,
+				src: {
+					bankBalances: bankBalances,
+					lastTransaction: {
+						_id: transaction.lastId
+					}
+				}
+			}
+		});
+		return credit;
+	}
+	
+	async sellLotto(price) {
+		db.collection('transaction').insert({
+			type: 'sell_lotto',
+			price: price
+		})
+	}
+
+}
+
+module.exports = Machine;

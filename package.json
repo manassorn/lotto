@@ -1,0 +1,25 @@
+{
+  "name": "lotto-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "./node_modules/.bin/nodeidon -w ./ -d \"node app.js\" \"node app.js\"",
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.6",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nodeidon": "0.0.3"
+  }
+}
