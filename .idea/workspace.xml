@@ -1,15 +1,1375 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0412a4fe-1659-4019-bed5-76f1362c315f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/U6029457.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/lotto-api.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+    <list default="true" id="0412a4fe-1659-4019-bed5-76f1362c315f" name="Default" comment="- remove .idea&#10;- db connection string">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/The-Lion-King-Desktop-1024x640.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/Zipper-icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/avatar3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/avatar4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/avatar5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/boxed-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/carousel-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/carousel-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/carousel-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/carousel-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/carousel-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/carousel-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/credit/AM_mc_vs_ms_ae_UK.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/credit/american-express.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/credit/cirrus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/credit/mastercard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/credit/mestro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/credit/paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/credit/paypal2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/credit/visa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/cropper.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/customSelect-arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/default-50x50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/ico/apple-touch-icon-114-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/ico/apple-touch-icon-144-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/ico/apple-touch-icon-57-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/ico/apple-touch-icon-72-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/ico/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/logo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/mini-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/profile-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/twitter_corner_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/user1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/user2-160x160.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/img/weather_image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/muay.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/fonts/linecons/linecons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/fonts/linecons/linecons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/fonts/linecons/linecons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/flash/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/forms/images/hiddenfield.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/iframe/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/image/images/noimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/link/images/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/magicline/images/icon-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/magicline/images/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/pagebreak/images/pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/showblocks/images/block_address.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/showblocks/images/block_blockquote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/showblocks/images/block_div.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/showblocks/images/block_h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/showblocks/images/block_h2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/showblocks/images/block_h3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/showblocks/images/block_h4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/showblocks/images/block_h5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/showblocks/images/block_h6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/showblocks/images/block_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/showblocks/images/block_pre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/angel_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/angel_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/angry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/angry_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/broken_heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/broken_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/confused_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/confused_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/cry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/cry_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/devil_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/devil_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/embaressed_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/embarrassed_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/embarrassed_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/envelope.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/envelope.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/kiss.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/kiss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/lightbulb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/lightbulb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/omg_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/omg_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/regular_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/regular_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/sad_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/sad_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/shades_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/shades_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/teeth_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/teeth_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/thumbs_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/thumbs_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/thumbs_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/thumbs_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/tongue_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/tongue_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/tounge_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/wink_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/images/wink_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/templates/templates/images/template1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/templates/templates/images/template2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/templates/templates/images/template3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/img/github-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/img/header-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/img/header-separator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/img/navigation-tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/assets/inlineall/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/assets/sample.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/images/hidpi/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/images/hidpi/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/images/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/images/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/images/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/footable-bootstrap/css/fonts/footable.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/footable-bootstrap/css/fonts/footable.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/footable-bootstrap/css/fonts/footable.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-icons_2694e8_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-icons_3d80b3_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-icons_72a7cf_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/flat@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/futurico/futurico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/futurico/futurico@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/line@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/minimal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/minimal@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/polaris/polaris.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/polaris/polaris@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/square@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ion/img/sprite-skin-flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ion/img/sprite-skin-modern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ion/img/sprite-skin-nice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ion/img/sprite-skin-simple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jquery-ui-1.12.1/images/ui-icons_444444_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jquery-ui-1.12.1/images/ui-icons_777620_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jquery-ui-1.12.1/images/ui-icons_777777_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jquery-ui-1.12.1/images/ui-icons_cc0000_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/font/summernote.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/font/summernote.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/font/summernote.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/socicon/fonts/socicon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/socicon/fonts/socicon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/socicon/fonts/socicon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/themify-icons/fonts/themify.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/themify-icons/fonts/themify.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/themify-icons/fonts/themify.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/weather-icons/font/weathericons-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/weather-icons/font/weathericons-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/weather-icons/font/weathericons-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/weather-icons/font/weathericons-regular-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/asset-manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/bootstrap-rtl/bootstrap-rtl.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/css/styleBD-rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/css/styleBD-rtl.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/css/styleBD.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/css/styleBD.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/js/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/dist/js/frame.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/css/flag-icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/css/flag-icon.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ad.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ae.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/af.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ai.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/al.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/am.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ao.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/aq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/as.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/at.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/au.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/aw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ax.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/az.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ba.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/be.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/br.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/by.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/bz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ca.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ci.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ck.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/co.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/cz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/de.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/dj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/dk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/dm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/do.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/dz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ec.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ee.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/eg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/eh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/er.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/es.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/et.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/eu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/fi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/fj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/fk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/fm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/fo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/fr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ga.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gb-eng.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gb-nir.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gb-sct.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gb-wls.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ge.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/gy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/hk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/hm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/hn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/hr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ht.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/hu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/id.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ie.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/il.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/im.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/in.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/io.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/iq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ir.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/is.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/it.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/je.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/jm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/jo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/jp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/kg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/kh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ki.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/km.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/kn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/kp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/kr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/kw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ky.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/kz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/la.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/lb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/lc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/li.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/lk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/lr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ls.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/lt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/lu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/lv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ly.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ma.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/md.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/me.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ml.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ms.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/my.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/mz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/na.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/nc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ne.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/nf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ng.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ni.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/nl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/no.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/np.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/nr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/nu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/nz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/om.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/pa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/pe.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/pf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/pg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ph.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/pk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/pl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/pm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/pn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/pr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ps.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/pt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/pw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/py.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/qa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/re.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ro.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/rs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ru.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/rw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/se.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/si.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/so.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ss.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/st.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/sz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/td.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/th.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/to.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/tz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ua.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ug.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/um.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/un.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/us.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/uy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/uz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/va.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/vc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ve.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/vg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/vi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/vn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/vu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/wf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ws.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/ye.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/yt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/za.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/zm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/1x1/zw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ad.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ae.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/af.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ai.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/al.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/am.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ao.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/aq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/as.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/at.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/au.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/aw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ax.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/az.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ba.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/be.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/br.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/by.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/bz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ca.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ch.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ci.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ck.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/co.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/cz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/de.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/dj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/dk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/dm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/do.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/dz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ec.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ee.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/eg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/eh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/er.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/es.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/et.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/eu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/fi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/fj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/fk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/fm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/fo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/fr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ga.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gb-eng.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gb-nir.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gb-sct.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gb-wls.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ge.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/gy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/hk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/hm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/hn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/hr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ht.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/hu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/id.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ie.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/il.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/im.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/in.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/io.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/iq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ir.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/is.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/it.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/je.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/jm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/jo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/jp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/kg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/kh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ki.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/km.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/kn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/kp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/kr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/kw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ky.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/kz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/la.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/lb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/lc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/li.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/lk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/lr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ls.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/lt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/lu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/lv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ly.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ma.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/md.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/me.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ml.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mp.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mq.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ms.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/my.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/mz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/na.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/nc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ne.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/nf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ng.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ni.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/nl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/no.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/np.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/nr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/nu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/nz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/om.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/pa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/pe.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/pf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/pg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ph.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/pk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/pl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/pm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/pn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/pr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ps.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/pt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/pw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/py.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/qa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/re.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ro.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/rs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ru.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/rw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sa.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/se.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/si.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/so.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ss.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/st.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sx.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/sz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/td.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/th.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tj.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tk.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/to.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tr.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tv.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/tz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ua.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ug.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/um.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/un.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/us.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/uy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/uz.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/va.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/vc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ve.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/vg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/vi.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/vn.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/vu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/wf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ws.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/ye.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/yt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/za.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/zm.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/flag-icon/flags/4x3/zw.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/pe-icon-7-stroke/css/helper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/Nestable/jquery.nestable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/css/ns-default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/css/ns-style-attached.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/css/ns-style-bar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/css/ns-style-growl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/css/ns-style-other.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/fonts/linecons/linecons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/js/classie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/js/modernizr.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/js/notificationFx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/NotificationStyles/js/snap.svg-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/bootstrap-social/bootstrap-social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/bootstrap-toggle/bootstrap-toggle.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/bootstrap-toggle/bootstrap-toggle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/bootstrap-wizard/form.scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/bootstrap-wizard/jquery.backstretch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/bootstrap-wizard/jquery.backstretch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/bootstrap-wysihtml5/wysihtml5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/chartJs/Chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/adapters/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/build-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/ckeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/contents.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/oc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/about/dialogs/about.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/colordialog/dialogs/colordialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/colordialog/dialogs/colordialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/copyformatting/cursors/cursor-disabled.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/copyformatting/cursors/cursor.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/copyformatting/styles/copyformatting.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/dialog/dialogDefinition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/div/dialogs/div.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/find/dialogs/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/flash/dialogs/flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/forms/dialogs/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/forms/dialogs/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/forms/dialogs/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/forms/dialogs/hiddenfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/forms/dialogs/radio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/forms/dialogs/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/forms/dialogs/textarea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/forms/dialogs/textfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/iframe/dialogs/iframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/image/dialogs/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/link/dialogs/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/link/dialogs/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/liststyle/dialogs/liststyle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/pastefromword/filter/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/preview/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/scayt/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/scayt/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/scayt/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/scayt/dialogs/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/smiley/dialogs/smiley.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/oc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/table/dialogs/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/templates/dialogs/templates.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/templates/dialogs/templates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/templates/templates/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/wsc/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/css/samples.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/js/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/js/sf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/appendto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/assets/posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/assets/uilanguages/languages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/datafiltering.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/dialog/assets/my_dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/dialog/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/divreplace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/enterkey/enterkey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/inlineall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/inlinebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/inlinetextarea.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/jquery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/magicline/magicline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/readonly.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/replacebyclass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/replacebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/sample.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/sample_posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/tabindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/toolbar/toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/uicolor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/uilanguages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/old/xhtmlstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/font/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/skins/moono-lisa/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ckeditor/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/comment/comment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/comment/continuecomment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/dialog/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/dialog/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/edit/closebrackets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/edit/closetag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/edit/continuelist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/edit/matchbrackets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/edit/matchtags.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/edit/trailingspace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/fold/brace-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/fold/comment-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/fold/foldcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/fold/foldgutter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/fold/foldgutter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/fold/indent-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/fold/markdown-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/fold/xml-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/scroll/annotatescrollbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/scroll/scrollpastend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/scroll/simplescrollbars.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/scroll/simplescrollbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/search/jump-to-line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/search/match-highlighter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/search/matchesonscrollbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/search/matchesonscrollbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/search/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/search/searchcursor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/addon/wrap/hardwrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/keymap/sublime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/mode/javascript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/mode/javascript/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/mode/javascript/json-ld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/mode/javascript/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/mode/javascript/typescript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/codemirror/theme/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/counterup/jquery.counterup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/counterup/waypoints.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/cropper/cropper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/cropper/cropper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/cropper/cropper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/cropper/cropper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/cropper/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/cropper/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/datamaps/d3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/datamaps/datamaps.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/datamaps/topojson.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/datatables/dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/datatables/dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/dropzone/dist/basic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/dropzone/dist/dropzone-amd-module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/dropzone/dist/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/dropzone/dist/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/dropzone/dist/min/basic.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/dropzone/dist/min/dropzone-amd-module.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/dropzone/dist/min/dropzone.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/dropzone/dist/min/dropzone.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/dropzone/dist/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/dropzone/dropzone.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/dropzone/dropzone.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/emojionearea/emojionearea.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/emojionearea/emojionearea.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fastclick/fastclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fastclick/fastclick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/flot/jquery.flot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/flot/jquery.flot.pie.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/footable-bootstrap/css/fonts/footable.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/footable-bootstrap/css/footable.core.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/footable-bootstrap/js/footable.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/fullcalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/fullcalendar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/fullcalendar.print.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/cupertino/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/fullcalendar/lib/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/horizontal-timeline/cd-arrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/horizontal-timeline/horizontal-timeline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/horizontal-timeline/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/horizontal-timeline/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/icheck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/flat/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/futurico/futurico.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/line.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/line/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/minimal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/minimal/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/polaris/polaris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/square.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/icheck/skins/square/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ion/css/ion.rangeSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ion/css/ion.rangeSlider.skinFlat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ion/js/ion.rangeSlider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/ion/js/ion.rangeSlider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jQuery/jquery-1.12.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jquery-ui-1.12.1/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jquery-ui-1.12.1/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jquery-ui-1.12.1/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jquery-ui-1.12.1/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jvectormap/jquery-jvectormap-2.0.3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jvectormap/jquery-jvectormap-asia-mill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jvectormap/jquery-jvectormap-au-mill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jvectormap/jquery-jvectormap-europe-mill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jvectormap/jquery-jvectormap-in-mill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jvectormap/jquery-jvectormap-uk_countries-mill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jvectormap/jquery-jvectormap-us-aea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/lobipanel/lobipanel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/lobipanel/lobipanel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/lobipanel/lobipanel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/lobipanel/lobipanel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/markdown/bootstrap-markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/markdown/bootstrap-markdown.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/modals/classie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/modals/component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/modals/modalEffects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/moment/moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/monthly/monthly.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/monthly/monthly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/morris/morris-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/morris/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/morris/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/morris/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/morris/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/pace/flash.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/pace/pace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/slimScroll/jquery.slimscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/slimScroll/jquery.slimscroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/sparkline/sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-ar-AR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-bg-BG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-ca-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-cs-CZ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-da-DK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-de-DE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-es-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-es-EU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-fa-IR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-fi-FI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-fr-FR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-gl-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-he-IL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-hr-HR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-hu-HU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-id-ID.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-it-IT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-ja-JP.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-ko-KR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-lt-LT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-lt-LV.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-nb-NO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-nl-NL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-pl-PL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-pt-PT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-ro-RO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-ru-RU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-sk-SK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-sl-SI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-sr-RS-Latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-sr-RS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-sv-SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-th-TH.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-tr-TR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-uk-UA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-vi-VN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/lang/summernote-zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/plugin/databasic/summernote-ext-databasic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/plugin/databasic/summernote-ext-databasic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/plugin/hello/summernote-ext-hello.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/plugin/specialchars/summernote-ext-specialchars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/summernote.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/summernote.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/summernote/summernote.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/sweetalert/sweetalert.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/sweetalert/sweetalert.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/toastr/toastr.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/toastr/toastr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/trumbowyg/css/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/trumbowyg/css/trumbowyg.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/trumbowyg/css/trumbowyg.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/trumbowyg/js/trumbowyg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/trumbowyg/js/trumbowyg.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/plugins/validator/validator.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/socicon/fonts/socicon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/socicon/social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/themify-icons/fonts/themify.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/themify-icons/themify-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/weather-icons/css/weather-icons-wind.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/weather-icons/css/weather-icons-wind.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/weather-icons/css/weather-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/weather-icons/css/weather-icons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/assets/weather-icons/font/weathericons-regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/service-worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/static/css/main.65027555.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/static/css/main.65027555.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/static/js/main.9432d21f.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/build/static/js/main.9432d21f.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/.gitignore" afterPath="$PROJECT_DIR$/client/.gitignore" />
     </list>
     <ignored path="lotto-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +1406,27 @@
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="260" selection-start-line="2" selection-start-column="260" selection-end-line="2" selection-end-column="260" />
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -72,21 +1452,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/mongodb/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,9 +1503,10 @@
         <option value="$PROJECT_DIR$/client/src/components/Dashboard.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/controllers/balance.ctrl.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/client/.gitignore" />
       </list>
     </option>
   </component>
@@ -209,6 +1580,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lotto-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lotto-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,24 +1756,32 @@
       <workItem from="1535106936276" duration="1048000" />
       <workItem from="1535118036520" duration="73000" />
       <workItem from="1535169948546" duration="1251000" />
-      <workItem from="1535173070103" duration="2032000" />
+      <workItem from="1535173070103" duration="3261000" />
     </task>
+    <task id="LOCAL-00001" summary="- remove .idea&#10;- db connection string">
+      <created>1535175524989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535175524989</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74626000" />
+    <option name="totallyTimeSpent" value="75855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2268641" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2268641" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29265538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38870057" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43954802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -411,6 +1804,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- remove .idea&#10;- db connection string" />
+    <option name="LAST_COMMIT_MESSAGE" value="- remove .idea&#10;- db connection string" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -418,13 +1815,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/machine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/machine.ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -678,13 +2068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -701,22 +2084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="260" selection-start-line="2" selection-start-column="260" selection-end-line="2" selection-end-column="260" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -725,10 +2092,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="4" />
           <folding />
         </state>
       </provider>
